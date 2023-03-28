@@ -1,0 +1,329 @@
+﻿.doc {
+	position: relative;
+	width: 100%;
+	/*min-height: 1800px;*/
+	overflow: hidden;
+	color: #fff;
+}
+.doc-text {
+    display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.doc .page-bg {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-ms-perspective: 1000;
+	perspective: 1000;
+}
+.doc .page-bg-mask {
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	height: 110%;
+	opacity: 0.3;
+	background: url(../images/mask.png) 0 0 repeat transparent;
+}
+.doc .page-bg .page-cont-mask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 110%;
+	background-color: #000;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-ms-perspective: 1000;
+	perspective: 1000;
+	opacity: 0.1;
+}
+.doc .page-bg .mask {
+	opacity: 0.65;
+}
+.doc .page-bg .mask-ok {
+	opacity: 0.3;
+}
+.doc .page-bg .mask-zero {
+	opacity: 0;
+}
+/*.doc .page-bg-1 .page-cont  {
+	background: url(../images/sunshine.jpg) center center no-repeat transparent;
+}*/
+
+@media (max-device-width: 736px) {
+    .doc .page-bg-1 .page-cont  {
+        background: url(../images/msunshine.png) center center no-repeat transparent;
+    }
+    .doc .page-bg-2 .page-cont  {
+        background: url(../images/mlion.jpg) center center no-repeat transparent;
+    }
+    .doc .page-bg-3 .page-cont  {
+        background: url(../images/mrhinoceros.jpg) center center no-repeat transparent;
+    }
+    .doc .page-bg-4 .page-cont  {
+        background: url(../images/mcayman.jpg) center center no-repeat transparent;
+    }
+    .doc .page-bg-5 .page-cont  {
+        background: url(../images/mtercel.jpg) center center no-repeat transparent;
+    }
+
+}
+@media (min-device-width: 737px) {
+    .doc .page-bg-1 .page-cont  {
+        background: url(../images/sunshine.jpg) center center no-repeat transparent;
+    }
+    .doc .page-bg-2 .page-cont  {
+        background: url(../images/lion.jpg) center center no-repeat transparent;
+    }
+    .doc .page-bg-3 .page-cont  {
+        background: url(../images/rhinoceros.jpg) center center no-repeat transparent;
+    }
+    .doc .page-bg-4 .page-cont  {
+        background: url(../images/cayman.jpg) center center no-repeat transparent;
+    }
+    .doc .page-bg-5 .page-cont  {
+        background: url(../images/tercel.jpg) center center no-repeat transparent;
+    }
+}
+
+.doc .page-bg .page-cont {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	-o-transform: scale(1.0);
+	-ms-transform: scale(1.0);
+	-moz-transform: scale(1.0);
+	-webkit-transform: scale(1.0);
+	transform: scale(1.0);
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-ms-perspective: 1000;
+	perspective: 1000;
+}
+.doc .page-bg .scale {
+	-o-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	-moz-transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+/* text */
+.doc h1, 
+.doc h3,
+.doc .desc{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-ms-perspective: 1000;
+	perspective: 1000;
+	opacity: 0.4;
+}
+.doc h1{
+	font-size: 3.75rem;
+	font-weight: normal;
+	color: #fff;
+}
+.doc h3 {
+	font-size: 2.25rem;
+	font-weight: normal;
+	color: #fff;
+}
+.doc .desc { 
+	font-size: 1rem; 
+	color: #eee;
+	text-align: justify;
+	margin-top: 15px;
+}
+.doc .opshow {
+	opacity: 1;
+}
+.doc .opshow-ok {
+	opacity: 0.4;
+}
+.doc .page-gmod {
+	position: relative;
+	width: 960px;
+	height: 100vh;
+	margin: 0 auto;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-ms-perspective: 1000;
+	perspective: 1000;
+	-o-transition: all .7s ease;
+    -ms-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -webkit-transition: all .7s ease;
+    transition: all .7s ease;
+}
+.doc .page-rule {
+	position: absolute;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    width: 200%;
+    margin-left: -50%;
+    line-height: 130px;
+    font-size: 1.88rem;
+    text-align: center;
+    /*background-color: rgba(255,255,255,0.25);*/
+    background-color: rgba(125, 125, 125, 0.3);
+    -webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-ms-perspective: 1000;
+	perspective: 1000;
+	-o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.doc .page-rule  h3 {
+	font-size: 1.88rem;
+}
+.doc .page-desc .desc{
+    margin-bottom: 20px;
+}
+.doc .page-desc .flink{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+.doc .page-desc .flink:hover{
+    background-color: #AD9583;
+}
+.doc .page-desc-1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 510px;
+    height: 100px;
+    margin: -50px 0 0 -255px;
+}
+.doc .page-desc-1 h1 {
+	text-align: center;
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.doc .page-desc .scale {
+	-o-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.doc .page-desc-2 {
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 620px;
+	height: 230px;
+	margin-top: -115px;
+}
+.doc .page-desc-3 {
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 620px;
+	margin-top: -120px;
+}
+.doc .page-desc-4 {
+	position: absolute;
+	right: 0;
+	top: 45%;
+	width: 660px;
+	text-align: right;
+	margin-top: -120px;
+}
+.doc .page-desc-5 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 660px;
+	margin-top: -120px;
+}
+/* ie bugfix */
+.ie6 .doc .page-bg .page-cont-mask, 
+.ie7 .doc .page-bg .page-cont-mask,
+.ie8 .doc .page-bg .page-cont-mask{
+	display: none;
+}
+.ie6 .doc .page-bg-mask, 
+.ie7 .doc .page-bg-mask, 
+.ie8 .doc .page-bg-mask{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+}
+.ie6 .doc .page-bg-1 .page-cont, 
+.ie7 .doc .page-bg-1 .page-cont
+.ie8 .doc .page-bg-1 .page-cont  {
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resource/img/bg/sunshine.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resource/img/bg/sunshine.jpg',sizingMethod='scale');
+}
+.ie6 .doc .page-bg-2 .page-cont,
+.ie7 .doc .page-bg-2 .page-cont, 
+.ie8 .doc .page-bg-2 .page-cont {
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resource/img/bg/lion.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resource/img/bg/lion.jpg',sizingMethod='scale');
+}
+.ie6 .doc .page-bg-3 .page-cont,
+.ie7 .doc .page-bg-3 .page-cont, 
+.ie8 .doc .page-bg-3 .page-cont {
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resource/img/bg/rhinoceros.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resource/img/bg/rhinoceros.jpg',sizingMethod='scale');
+}
+.ie6 .doc .page-bg-4 .page-cont,
+.ie7 .doc .page-bg-4 .page-cont, 
+.ie8 .doc .page-bg-4 .page-cont {
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resource/img/bg/cayman.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resource/img/bg/cayman.jpg',sizingMethod='scale');
+}
+.ie6 .doc .page-bg-5 .page-cont,
+.ie7 .doc .page-bg-5 .page-cont, 
+.ie8 .doc .page-bg-5 .page-cont {
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resource/img/bg/tercel.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/resource/img/bg/tercel.jpg',sizingMethod='scale');
+}
+.ie9 .doc h1, 
+.ie9 .doc h3,
+.ie9 .doc .desc  {
+	opacity: 1;
+}

@@ -1,0 +1,177 @@
+﻿/* 移动安全服务 */
+.banner {
+	height: 640px;
+	background-color: #015078;
+	background-image: -webkit-gradien(linear, right, left, from(#029387), to(#025a67));
+	background-image: -webkit-linear-gradien(to left, #029387, #025a67);
+	background-image: -moz-linear-gradient(to left, #029387, #025a67);
+	background-image: -o-linear-gradient(to left, #029387, #025a67);
+	background-image: -ms-linear-gradient(to left, #029387, #025a67);
+	background-image: linear-gradient(to left, #029387, #025a67);
+}
+.banner .wrapper {
+	position: relative;
+	width: 1000px;
+	height: 640px;
+	margin: 0 auto;
+}
+.banner .img {
+	position: absolute;
+	left: 0;
+	top: 90px;
+}
+.banner .img .rade_01 {
+	position: absolute;
+	top: 11px;
+	left: -40px;
+	width: 508px;
+	height: 508px;
+	background: url(../images/rade_make_01.png) 0 0  no-repeat transparent;
+}
+.banner .img .rade_02 {
+	position: absolute;
+	top: -8px;
+    left: -59px;
+	width: 546px;
+	height: 546px;
+	background: url(../images/rade_make_02.png) 0 0  no-repeat transparent;
+}
+.banner .img .dot_01 {
+	position: absolute;
+	top: 82px;
+    left: 30px;
+	width: 384px;
+	height: 374px;
+	background: url(../images/dot_01.png) 0 0  no-repeat transparent;
+}
+.banner .img .dot_02 {
+	position: absolute;
+	top: 76px;
+    left: 20px;
+	width: 394px;
+	height: 386px;
+	background: url(../images/dot_02.png) 0 0  no-repeat transparent;
+}
+.banner .img .card {
+	position: absolute;
+	top: 139px;
+    left: 95px;
+	width: 256px;
+	height: 256px;
+	background: url(../images/card.png) 0 0  no-repeat transparent;
+}
+.banner .desc {
+	position: absolute;
+	right: -10px;
+	top: 245px;
+	width: 430px;
+	height: 240px;
+	color: #d9d9d9;
+}
+.banner .desc h1 {
+	font-size: 40px;
+}
+.banner .desc p {
+	margin-top: 15px;
+	font-size: 16px;
+	line-height: 36px;
+	text-align: justify;
+}
+
+
+.content {
+	background-color: #fff;
+}
+.content .part {
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 130px;
+	margin-bottom: 135px;
+}
+.content .img {
+	float: left;
+	width: 155px;
+	height: 160px;
+	margin-right: 94px;
+}
+.content .desc {
+	float: right;
+	width: 750px;
+}
+.content .desc h2 {
+	color: #02847f;
+	font-size: 30px;
+}
+.content .desc p, 
+.content .desc span{
+	color: #646464;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: justify;
+}
+.content .desc .tag {
+	width: 80px;
+	cursor: default;
+	color: #02847f;
+}
+.content .defend{
+	background: url(../images/s1.png) 0 0 no-repeat transparent;
+}
+.content .forbid{
+	background: url(../images/s2.png) 0 0 no-repeat transparent;
+}
+.content .sweep{
+	background: url(../images/s3.png) 0 0 no-repeat transparent;
+}
+.content .safe{
+	background: url(../images/s4.png) 0 0 no-repeat transparent;
+}
+.content .setting{
+	background: url(../images/s5.png) 0 0 no-repeat transparent;
+}
+
+.friendLink{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 100px;
+}
+.friendLink .title{
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+.friendLink ul li{
+    display: inline-block;
+    /*width: 241px;*/
+    margin-right: 50px;
+    height: 148px;
+}
+
+.friendLink ul .flink1{
+    width: 241px;
+    background: url(../images/f11.png) 0 0 no-repeat transparent;
+}
+.friendLink ul .flink2{
+    width: 216px;
+    background: url(../images/f22.png) 0 0 no-repeat transparent;
+
+}
+.friendLink ul .flink3{
+    width: 118px;
+    background: url(../images/f33.png) 0 0 no-repeat transparent;
+}
+.friendLink ul .flink4{
+    width: 180px;
+    background: url(../images/f44.png) 0 0 no-repeat transparent;
+}
+body{
+    position: relative;
+    min-height: 100%;
+}
+.ft  {
+    display: none;
+    position: absolute;
+    width: 100%;
+}

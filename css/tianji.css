@@ -1,0 +1,134 @@
+﻿/* 移动安全服务 */
+.banner {
+    height: 640px;
+    background-color: #2d72b3;
+    background-image: -o-linear-gradient(to right, #1696d4, #2d72b3);
+    background-image: -ms-linear-gradient(to right, #1696d4, #2d72b3);
+    background-image: -moz-linear-gradient(to right, #1696d4, #2d72b3);
+    background-image: -webkit-gradien(linear, left, right, from(#1696d4), to(#2d72b3));
+    background-image: -webkit-linear-gradien(to right, #1696d4, #2d72b3);
+    background-image: linear-gradient(to right, #1696d4, #2d72b3);
+}
+.banner .wrapper {
+    position: relative;
+    width: 1100px;
+    height: 640px;
+    margin: 0 auto;
+}
+.banner .img {
+    position: relative;
+    right: -450px;
+    top: 76px;
+    width: 692px;
+    height: 612px;
+    background: url(../images/banner.png) 0 0 no-repeat transparent;
+}
+.banner .img .circle_01 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -7px 0 0 0px;
+    width: 48px;
+    height: 49px;
+    background: url(../images/circle_01.png) 0 0  no-repeat transparent;
+}
+.banner .img .circle_02 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 209px;
+    height: 208px;
+    margin: -85px 0 0 -82px;
+    background: url(../images/circle_02.png) 0 0  no-repeat transparent;
+}
+.banner .img .circle_03 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -154px 0 0 -148px;
+    width: 344px;
+    height: 344px;
+    background: url(../images/circle_03.png) 0 0  no-repeat transparent;
+}
+.banner .desc {
+    position: absolute;
+    top: 190px;
+    left: 0;
+    width: 500px;
+    height: 300px;
+    color: #d9d9d9;
+}
+.banner .desc h1 {
+    font-size: 40px;
+}
+.banner .desc p {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: justify;
+}
+
+
+.content {
+    background-color: #fff;
+    position: relative;
+    padding-top: 130px;
+    z-index: 1000;
+}
+.content .part {
+    width: 1000px;
+    margin: 0 auto;
+    /*margin-top: 130px;*/
+    margin-bottom: 135px;
+}
+.content .img {
+    float: left;
+    width: 155px;
+    height: 160px;
+    margin-right: 94px;
+}
+.content .desc {
+    float: right;
+    width: 750px;
+}
+.content .desc h2 {
+    color: #2d72b3;
+    font-size: 30px;
+}
+.content .desc p, 
+.content .desc span{
+    color: #646464;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: justify;
+}
+.content .desc .tag {
+    width: 80px;
+    cursor: default;
+    color: #3eac4a;
+}
+.content .multi{
+    background: url(../images/multi.png) 0 0 no-repeat transparent;
+}
+.content .access{
+    background: url(../images/access.png) 0 0 no-repeat transparent;
+}
+.content .pprivate{
+    background: url(../images/pprivate.png) 0 0 no-repeat transparent;
+}
+.content .appstore{
+    background: url(../images/appstore.png) 0 0 no-repeat transparent;
+}
+.content .trojia{
+    background: url(../images/trojia.png) 0 0 no-repeat transparent;
+}
+
+body{
+    position: relative;
+    min-height: 100%;
+}
+.ft {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
